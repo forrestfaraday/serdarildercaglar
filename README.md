@@ -9,19 +9,19 @@ Natural Language Processing Engineer with experience in data mining, machine lea
 
 1. ``Nioyatech LLC, NLP Engineer``                                                                                         March 2022 – Current
 
-Developed and implemented NLP models for sentiment analysis, entity recognition, relation extraction, etc.
-Analyzed the data using Python libraries such as Pandas, Scikit-Learn, TensorFlow to extract features and built statistical models in Python/JavaScript based on ML algorithms like SVM, Logistic Regression, Neural Networks.
-Used tools such as AWS SageMaker (Python) or Azure Machine Learning Studio (C#) to deploy trained model into production environment with minimal code required by developers.
-Worked closely with product managers and software engineers to understand requirements and translate them into technical specifications that can be used by machine learning engineers to build solutions quickly.
-Collaborated with other teams across Microsoft including marketing research & insights team to identify opportunities where AI could add value for customers and partners of Microsoft 365 Ecosystems
+* Developed and implemented NLP models for sentiment analysis, entity recognition, relation extraction, etc.
+* Analyzed the data using Python libraries such as Pandas, Scikit-Learn, TensorFlow to extract features and built statistical models in Python/JavaScript based on ML algorithms like SVM, Logistic Regression, Neural Networks.
+* Used tools such as AWS SageMaker (Python) or Azure Machine Learning Studio (C#) to deploy trained model into production environment with minimal code required by developers.
+* Worked closely with product managers and software engineers to understand requirements and translate them into technical specifications that can be used by machine learning engineers to build solutions quickly.
+* Collaborated with other teams across Microsoft including marketing research & insights team to identify opportunities where AI could add value for customers and partners of Microsoft 365 Ecosystems
 
 2. ``MTM , NLP Engineer``                                                                                           Jan 2018 – Dec '2022
 
-Created a machine learning model to predict customer churn based on historical data, reducing the company’s churn rate by 5%
-Built an NLP system that automatically classified emails as spam or not spam using natural language processing techniques
-Developed and maintained a sentiment analysis tool for use in market research surveys (Python)
-Improved the accuracy of email classification from 85% to 95% through feature engineering and regularization techniques
-Implemented a web crawler to collect training data for text classification models (Scrapy + Python)
+* Created a machine learning model to predict customer churn based on historical data, reducing the company’s churn rate by 5%
+* Built an NLP system that automatically classified emails as spam or not spam using natural language processing techniques
+* Developed and maintained a sentiment analysis tool for use in market research surveys (Python)
+* Improved the accuracy of email classification from 85% to 95% through feature engineering and regularization techniques
+* Implemented a web crawler to collect training data for text classification models (Scrapy + Python)
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/serdarildercaglar) 
