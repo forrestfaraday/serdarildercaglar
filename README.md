@@ -3,6 +3,7 @@
 Turkey, Ist |  serdarildercaglar@gmail.com
 
 **Summary**
+
 Natural Language Processing Engineer with experience in data mining, machine learning, and artificial intelligence. Proven ability to develop algorithms and models that can understand and analyze text data. 
 
 **Experience**
