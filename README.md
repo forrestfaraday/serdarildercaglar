@@ -34,7 +34,9 @@ Natural Language Processing Engineer with experience in data mining, machine lea
 * Neuro-Linguistic Programming (NLP) Master Practitioner
 * SparkNLP
 * Clarusway
-* 
+* Global AI Hub
+
+
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/serdarildercaglar) 
 
