@@ -36,6 +36,10 @@ Natural Language Processing Engineer with experience in data mining, machine lea
 * Clarusway
 * Global AI Hub
 
+**Skills**
+* Industry Knowledge: NLP, Machine Learning, Natural Language Processing, Deep Learning, AI
+* Technical Skills: Python, TensorFlow, Keras, Spark, Apache Spark, SparkNLP, Transformers
+* Soft Skills: Communication, Problem Solving, Creativity, Attention to Detail, Research, Teamwork
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/serdarildercaglar) 
