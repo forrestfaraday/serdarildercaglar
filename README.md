@@ -23,6 +23,13 @@ Natural Language Processing Engineer with experience in data mining, machine lea
 * Improved the accuracy of email classification from 85% to 95% through feature engineering and regularization techniques
 * Implemented a web crawler to collect training data for text classification models (Scrapy + Python)
 
+**Education**
+* Gaziosmanpasa University 2004-2008
+* Anadolu University 2010-2014
+* Inonu University 2018-2020
+* Cukurova University 2022-
+
+
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/serdarildercaglar) 
 
