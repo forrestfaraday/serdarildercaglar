@@ -1,234 +1,304 @@
-<!--
-  <<< Author notes: Header of the course >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses Creative Commons Attribution 4.0 International.
--->
+<script src="http://www.google.com/jsapi" type="text/javascript"></script> 
+<script type="text/javascript">google.load("jquery", "1.3.2");</script>
 
-# GitHub Pages
+<style type="text/css">
+	body {
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+		font-weight:300;
+		font-size:18px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1100px;
+	}
+	
+	h1 {
+		font-size:32px;
+		font-weight:300;
+	}
+	
+	.disclaimerbox {
+		background-color: #eee;		
+		border: 1px solid #eeeeee;
+		border-radius: 10px ;
+		-moz-border-radius: 10px ;
+		-webkit-border-radius: 10px ;
+		padding: 20px;
+	}
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+	video.header-vid {
+		height: 140px;
+		border: 1px solid black;
+		border-radius: 10px ;
+		-moz-border-radius: 10px ;
+		-webkit-border-radius: 10px ;
+	}
+	
+	img.header-img {
+		height: 140px;
+		border: 1px solid black;
+		border-radius: 10px ;
+		-moz-border-radius: 10px ;
+		-webkit-border-radius: 10px ;
+	}
+	
+	img.rounded {
+		border: 1px solid #eeeeee;
+		border-radius: 10px ;
+		-moz-border-radius: 10px ;
+		-webkit-border-radius: 10px ;
+	}
+	
+	a:link,a:visited
+	{
+		color: #1367a7;
+		text-decoration: none;
+	}
+	a:hover {
+		color: #208799;
+	}
+	
+	td.dl-link {
+		height: 160px;
+		text-align: center;
+		font-size: 22px;
+	}
+	
+	.layered-paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+		box-shadow:
+		0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+		5px 5px 0 0px #fff, /* The second layer */
+		5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+		10px 10px 0 0px #fff, /* The third layer */
+		10px 10px 1px 1px rgba(0,0,0,0.35), /* The third layer shadow */
+		15px 15px 0 0px #fff, /* The fourth layer */
+		15px 15px 1px 1px rgba(0,0,0,0.35), /* The fourth layer shadow */
+		20px 20px 0 0px #fff, /* The fifth layer */
+		20px 20px 1px 1px rgba(0,0,0,0.35), /* The fifth layer shadow */
+		25px 25px 0 0px #fff, /* The fifth layer */
+		25px 25px 1px 1px rgba(0,0,0,0.35); /* The fifth layer shadow */
+		margin-left: 10px;
+		margin-right: 45px;
+	}
 
-<!--
-  <<< Author notes: Start of the course >>>
-  Include start button, a note about Actions minutes,
-  and tell the learner why they should take the course.
-  Each step should be wrapped in <details>/<summary>, with an `id` set.
-  The start <details> should have `open` as well.
-  Do not use quotes on the <details> tag attributes.
--->
+	.paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+		box-shadow:
+		0px 0px 1px 1px rgba(0,0,0,0.35); /* The top layer shadow */
 
-<!--step0
+		margin-left: 10px;
+		margin-right: 45px;
+	}
 
-With GitHub Pages, you can host project blogs, documentation, resumes, portfolios, or any other static content you'd like. Your GitHub repository can easily become its own website. In this course, we'll show you how to set up your own site or blog using GitHub Pages.
 
-- **Who is this for**: Beginners, students, project maintainers, small businesses.
-- **What you'll learn**: How to build a GitHub Pages site.
-- **What you'll build**: We'll build a simple GitHub Pages site with a blog. We'll use [Jekyll](https://jekyllrb.com), a static site generator.
-- **Prerequisites**: If you need to learn about branches, commits, and pull requests, take [Introduction to GitHub](https://github.com/skills/introduction-to-github) first.
-- **How long**: This course is five steps long and takes less than one hour to complete.
+	.layered-paper { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+		box-shadow:
+		0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+		5px 5px 0 0px #fff, /* The second layer */
+		5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+		10px 10px 0 0px #fff, /* The third layer */
+		10px 10px 1px 1px rgba(0,0,0,0.35); /* The third layer shadow */
+		margin-top: 5px;
+		margin-left: 10px;
+		margin-right: 30px;
+		margin-bottom: 5px;
+	}
+	
+	.vert-cent {
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	
+	hr
+	{
+		border: 0;
+		height: 1px;
+		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	}
+</style>
 
-## How to start this course
+<html>
+<head>
+	<title>This is my paper title</title>
+	<meta property="og:image" content="Path to my teaser.png"/> <!-- Facebook automatically scrapes this. Go to https://developers.facebook.com/tools/debug/ if you update and want to force Facebook to rescrape. -->
+	<meta property="og:title" content="Creative and Descriptive Paper Title." />
+	<meta property="og:description" content="Paper description." />
 
-1. Above these instructions, right-click **Use this template** and open the link in a new tab.
-   ![Use this template](https://user-images.githubusercontent.com/1221423/169618716-fb17528d-f332-4fc5-a11a-eaa23562665e.png)
-2. In the new tab, follow the prompts to create a new repository.
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository—private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   ![Create a new repository](https://user-images.githubusercontent.com/1221423/169618722-406dc508-add4-4074-83f0-c7a7ad87f6f3.png)
-3. After your new repository is created, wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in the new repository's README.
+	<!-- Get from Google Analytics -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src=""></script> 
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
 
-endstep0-->
+		gtag('config', 'UA-75863369-6');
+	</script>
+</head>
 
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
+<body>
+	<br>
+	<center>
+		<span style="font-size:36px">Creative and Descriptive Paper Title</span>
+		<table align=center width=600px>
+			<table align=center width=600px>
+				<tr>
+					<td align=center width=100px>
+						<center>
+							<span style="font-size:24px"><a href="https://en.wikipedia.org/wiki/James_J._Gibson">First Author</a></span>
+						</center>
+					</td>
+					<td align=center width=100px>
+						<center>
+							<span style="font-size:24px"><a href="https://en.wikipedia.org/wiki/James_J._Gibson">Second Author</a></span>
+						</center>
+					</td>
+					<td align=center width=100px>
+						<center>
+							<span style="font-size:24px"><a href="https://en.wikipedia.org/wiki/James_J._Gibson">Third Author</a></span>
+						</center>
+					</td>
+				</tr>
+			</table>
+			<table align=center width=250px>
+				<tr>
+					<td align=center width=120px>
+						<center>
+							<span style="font-size:24px"><a href=''>[Paper]</a></span>
+						</center>
+					</td>
+					<td align=center width=120px>
+						<center>
+							<span style="font-size:24px"><a href='https://github.com/richzhang/webpage-template'>[GitHub]</a></span><br>
+						</center>
+					</td>
+				</tr>
+			</table>
+		</table>
+	</center>
 
-<details id=1>
-<summary><h2>Step 1: Enable GitHub Pages</h2></summary>
+	<center>
+		<table align=center width=850px>
+			<tr>
+				<td width=260px>
+					<center>
+						<img class="round" style="width:500px" src="./resources/teaser.png"/>
+					</center>
+				</td>
+			</tr>
+		</table>
+		<table align=center width=850px>
+			<tr>
+				<td>
+					This was a template originally made for <a href="http://richzhang.github.io/colorization/">Colorful Image Colorization</a>. The code can be found in this <a href="https://github.com/richzhang/webpage-template">repository</a>.
+				</td>
+			</tr>
+		</table>
+	</center>
 
-_Welcome to GitHub Pages and Jekyll :tada:!_
+	<hr>
 
-The first step is to enable GitHub Pages on this [repository](https://docs.github.com/en/get-started/quickstart/github-glossary#repository). When you enable GitHub Pages on a repository, GitHub takes the content that's on the main branch and publishes a website based on its contents.
+	<table align=center width=850px>
+		<center><h1>Abstract</h1></center>
+		<tr>
+			<td>
+				This is my abstract.
+			</td>
+		</tr>
+	</table>
+	<br>
 
-### :keyboard: Activity: Enable GitHub Pages
+	<hr>
+	<center><h1>Talk</h1></center>
+	<p align="center">
+		<iframe width="660" height="395" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="center"></iframe>
+	</p>
 
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. Under your repository name, click **Settings**.
-1. Click **Pages**, in the "GitHub Pages" section, use the Source drop-down, then select **main branch**.
-1. Wait about _one minute_, then refresh this page for the next step.
-   > Turning on GitHub Pages creates a deployment of your repository. GitHub Actions may take up to a minute to respond while waiting for the deployment. Future steps will be about 20 seconds; this step is slower.
+	<table align=center width=800px>
+		<br>
+		<tr>
+			<center>
+				<span style="font-size:28px"><a href=''>[Slides]</a>
+				</span>
+			</center>
+		</tr>
+	</table>
+	<hr>
 
-</details>
+	<center><h1>Code</h1></center>
 
-<!--
-  <<< Author notes: Step 2 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
-  Historic note: previous version checked for empty pull request, changed to the correct theme `minima`.
--->
+	<table align=center width=420px>
+		<center>
+			<tr>
+				<td>
+				</td>
+			</tr>
+		</center>
+	</table>
+	<table align=center width=400px>
+		<tr>
+			<td align=center width=400px>
+				<center>
+					<td><img class="round" style="width:450px" src="./resources/method_diagram.png"/></td>
+				</center>
+			</td>
+		</tr>
+	</table>
+	<table align=center width=850px>
+		<center>
+			<tr>
+				<td>
+					Short description if wanted
+				</td>
+			</tr>
+		</center>
+	</table>
+	<table align=center width=800px>
+		<br>
+		<tr><center>
+			<span style="font-size:28px">&nbsp;<a href='https://github.com/richzhang/webpage-template'>[GitHub]</a>
+			</center>
+		</span>
+	</table>
+	<br>
+	<hr>
+	<table align=center width=450px>
+		<center><h1>Paper and Supplementary Material</h1></center>
+		<tr>
+			<td><a href=""><img class="layered-paper-big" style="height:175px" src="./resources/paper.png"/></a></td>
+			<td><span style="font-size:14pt">F. Author, S. Author, T. Author.<br>
+				<b>Creative and Descriptive Paper Title.</b><br>
+				In Conference, 20XX.<br>
+				(hosted on <a href="">ArXiv</a>)<br>
+				<!-- (<a href="./resources/camera-ready.pdf">camera ready</a>)<br> -->
+				<span style="font-size:4pt"><a href=""><br></a>
+				</span>
+			</td>
+		</tr>
+	</table>
+	<br>
 
-<details id=2>
-<summary><h2>Step 2: Configure your site</h2></summary>
+	<table align=center width=600px>
+		<tr>
+			<td><span style="font-size:14pt"><center>
+				<a href="./resources/bibtex.txt">[Bibtex]</a>
+			</center></td>
+		</tr>
+	</table>
 
-_You turned on GitHub Pages! :tada:_
+	<hr>
+	<br>
 
-We'll work in a branch, `my-pages`, that I created for you to get this site looking great. :sparkle:
+	<table align=center width=900px>
+		<tr>
+			<td width=400px>
+				<left>
+					<center><h1>Acknowledgements</h1></center>
+					This template was originally made by <a href="http://web.mit.edu/phillipi/">Phillip Isola</a> and <a href="http://richzhang.github.io/">Richard Zhang</a> for a <a href="http://richzhang.github.io/colorization/">colorful</a> ECCV project; the code can be found <a href="https://github.com/richzhang/webpage-template">here</a>.
+				</left>
+			</td>
+		</tr>
+	</table>
 
-Jekyll uses a file titled `_config.yml` to store settings for your site, your theme, and reusable content like your site title and GitHub handle. You can check out the `_config.yml` file on the **Code** tab of your repository.
-
-We need to use a blog-ready theme. For this activity, we will use a theme named "minima".
-
-### :keyboard: Activity: Configure your site
-
-1. Browse to the `_config.yml` file in the `my-pages` branch.
-1. In the upper right corner, open the file editor.
-1. Add a `theme:` set to **minima** so it shows in the `_config.yml` file as below:
-    ```yml
-    theme: minima
-    ```
-1. (optional) You can modify the other configuration variables such as `title:`, `author:`, and `description:` to further customize your site.
-1. Commit your changes.
-1. Wait about 20 seconds then refresh this page for the next step.
-
-</details>
-
-<!--
-  <<< Author notes: Step 3 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
-  Historic note: previous version checked the homepage content was not empty.
--->
-
-<details id=3 open>
-<summary><h2>Step 3: Customize your homepage</h2></summary>
-
-_Nice work setting the theme! :sparkles:_
-
-You can customize your homepage by adding content to either an `index.md` file or the `README.md` file. GitHub Pages first looks for an `index.md` file. Your repository has an `index.md` file so we can update it to include your personalized content.
-
-### :keyboard: Activity: Create your homepage
-
-1. Browse to the `index.md` file in the `my-pages` branch.
-1. In the upper right corner, open the file editor.
-1. Type the content you want on your homepage. You can use Markdown formatting on this page.
-1. (optional) You can also modify `title:` or just ignore it for now. We'll discuss it in the next step.
-1. Commit your changes to the `my-pages` branch.
-1. Wait about 20 seconds then refresh this page for the next step.
-
-</details>
-
-<!--
-  <<< Author notes: Step 4 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
-  Historic note: previous version checked the file path. Previous version checked the front matter formatting.
--->
-
-<details id=4>
-<summary><h2>Step 4: Create a blog post</h2></summary>
-
-_Your home page is looking great! :cowboy_hat_face:_
-
-GitHub Pages uses Jekyll. In Jekyll, we can create a blog by using specially named files and frontmatter. The files must be named `_posts/YYYY-MM-DD-title.md`. You must also include `title` and `date` in your frontmatter.
-
-**What is _frontmatter_?**: The syntax Jekyll files use is called YAML frontmatter. It goes at the top of your file and looks something like this:
-
-```yml
----
-title: "Welcome to my blog"
-date: 2019-01-20
----
-```
-
-For more information about configuring front matter, see the [Jekyll frontmatter documentation](https://jekyllrb.com/docs/frontmatter/).
-
-### :keyboard: Activity: Create a blog post
-
-1. Browse to the `my-pages` branch.
-1. Click the `Add file` dropdown menu and then on `Create new file`.
-1. Name the file `_posts/YYYY-MM-DD-title.md`.
-1. Replace the `YYYY-MM-DD` with today's date, and change the `title` of your first blog post if you'd like.
-   > If you do edit the title, make sure there are hyphens between your words.
-   > If your blog post date doesn't follow the correct date convention, you'll receive an error and your site won't build. For more information, see "[Page build failed: Invalid post date](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/troubleshooting-jekyll-build-errors-for-github-pages-sites)".
-1. Type the following content at the top of your blog post:
-   ```yaml
-   ---
-   title: "YOUR-TITLE"
-   date: YYYY-MM-DD
-   ---
-   ```
-1. Replace `YOUR-TITLE` with the title for your blog post.
-1. Replace `YYYY-MM-DD` with today's date.
-1. Type a quick draft of your blog post. Remember, you can always edit it later.
-1. Commit your changes to your branch.
-1. Wait about 20 seconds then refresh this page for the next step.
-
-</details>
-
-<!--
-  <<< Author notes: Step 5 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
--->
-
-<details id=5>
-<summary><h2>Step 5: Merge your pull request</h2></summary>
-
-_Nice work, friend :heart:! People will be reading your blog in no time!_
-
-You can now [merge](https://docs.github.com/en/get-started/quickstart/github-glossary#merge) your pull request!
-
-### :keyboard: Activity: Merge your pull request
-
-1. Click **Merge pull request**.
-1. Delete the branch `my-pages` (optional).
-1. Wait about 20 seconds then refresh this page for the next step.
-
-</details>
-
-<!--
-  <<< Author notes: Finish >>>
-  Review what we learned, ask for feedback, provide next steps.
--->
-
-<details id=X>
-<summary><h2>Finish</h2></summary>
-
-_Congratulations friend, you've completed this course!_
-
-<img src=https://octodex.github.com/images/constructocat2.jpg alt=celebrate width=300 align=right>
-
-Your blog is now live and has been deployed!
-
-Here's a recap of all the tasks you've accomplished in your repository:
-
-- You enabled GitHub Pages.
-- You selected a theme using the config file.
-- You learned about proper directory format and file naming conventions in Jekyll.
-- You created your first a blog post with Jekyll!
-
-### What's next?
-
-- Keep working on your GitHub Pages site... we love seeing what you come up with!
-- We'd love to hear what you thought of this course [in our discussion board](https://github.com/skills/.github/discussions).
-- [Take another GitHub Skills course](https://github.com/skills).
-- [Read the GitHub Getting Started docs](https://docs.github.com/en/get-started).
-- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
-
-</details>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-Get help: [Post in our discussion board](https://github.com/skills/.github/discussions) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2022 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [CC-BY-4.0 License](https://creativecommons.org/licenses/by/4.0/legalcode)
+<br>
+</body>
+</html>
