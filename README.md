@@ -6,7 +6,8 @@ Turkey, Ist |  serdarildercaglar@gmail.com
 Natural Language Processing Engineer with experience in data mining, machine learning, and artificial intelligence. Proven ability to develop algorithms and models that can understand and analyze text data. 
 
 **Experience**
-``Nioyatech LLC, NLP Engineer``                                                                                         March 2022 – Current
+
+1. ``Nioyatech LLC, NLP Engineer``                                                                                         March 2022 – Current
 
 Developed and implemented NLP models for sentiment analysis, entity recognition, relation extraction, etc.
 Analyzed the data using Python libraries such as Pandas, Scikit-Learn, TensorFlow to extract features and built statistical models in Python/JavaScript based on ML algorithms like SVM, Logistic Regression, Neural Networks.
@@ -14,7 +15,7 @@ Used tools such as AWS SageMaker (Python) or Azure Machine Learning Studio (C#) 
 Worked closely with product managers and software engineers to understand requirements and translate them into technical specifications that can be used by machine learning engineers to build solutions quickly.
 Collaborated with other teams across Microsoft including marketing research & insights team to identify opportunities where AI could add value for customers and partners of Microsoft 365 Ecosystems
 
-``MTM , NLP Engineer``                                                                                           Jan 2018 – Dec '2022
+2. ``MTM , NLP Engineer``                                                                                           Jan 2018 – Dec '2022
 
 Created a machine learning model to predict customer churn based on historical data, reducing the company’s churn rate by 5%
 Built an NLP system that automatically classified emails as spam or not spam using natural language processing techniques
