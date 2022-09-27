@@ -1,5 +1,6 @@
 # 💫 About Me:
-I'm currently working on NLP Tasks
+**Serdar Caglar**
+Turkey, Ist |  serdarildercaglar@gmail.com
 
 
 ## 🌐 Socials:
