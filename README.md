@@ -29,7 +29,12 @@ Natural Language Processing Engineer with experience in data mining, machine lea
 * Inonu University 2018-2020
 * Cukurova University 2022-
 
-
+**Certifications**
+* Certified NLP Coach
+* Neuro-Linguistic Programming (NLP) Master Practitioner
+* SparkNLP
+* Clarusway
+* 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/serdarildercaglar) 
 
