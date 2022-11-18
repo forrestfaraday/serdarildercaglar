@@ -1,6 +1,6 @@
 # 💫 About Me:
 **Forrest Faraday**
-Turkey, Ist |  forest@nioyatech.com
+Turkey, Ist |  josephforestcoder@gmail.com
 
 **Summary**
 
@@ -8,7 +8,7 @@ Natural Language Processing Engineer with experience in data mining, machine lea
 
 **Experience**
 
-1. ``Nioyatech LLC, NLP Engineer``                                                                                         March 2022 – Current
+1. ``MTRM LLC, NLP Engineer``                                                                                         March 2022 – Current
 
 * Developed and implemented NLP models for sentiment analysis, entity recognition, relation extraction, etc.
 * Analyzed the data using Python libraries such as Pandas, Scikit-Learn, TensorFlow to extract features and built statistical models in Python based on ML algorithms like SVM, Logistic Regression, Neural Networks.
